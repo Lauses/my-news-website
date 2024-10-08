@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif; /* Шрифт для всего текста */
+    background-color: #f0f0f0; /* Цвет фона */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем поля */
+    display: flex; /* Используем Flexbox для центрирования */
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    height: 100vh; /* Высота экрана */
+}
+
+h1 {
+    color: #333; /* Цвет заголовка */
+    font-size: 2.5rem; /* Размер шрифта заголовка */
+}
+
+p {
+    color: #666; /* Цвет текста абзаца */
+    font-size: 1.2rem; /* Размер шрифта абзаца */
+    text-align: center; /* Центрируем текст */
+    max-width: 600px; /* Максимальная ширина абзаца */
+    line-height: 1.5; /* Высота строки */
+}
