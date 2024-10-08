@@ -21,3 +21,17 @@ p {
     max-width: 600px; /* Максимальная ширина абзаца */
     line-height: 1.5; /* Высота строки */
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
