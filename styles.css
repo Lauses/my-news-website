@@ -34,4 +34,116 @@ h1 {
 
 p {
     color: #555;
+}/* Общие стили для страницы */
+body {
+    font-family: 'Poppins', sans-serif; /* Добавь ссылку на шрифт в HTML */
+    background-color: #f7f7f7; /* Светлый фон */
+    color: #333333; /* Основной цвет текста */
+    margin: 0;
+    padding: 20px;
 }
+
+/* Заголовки */
+h1, h2 {
+    color: #007bff; /* Яркий синий для заголовков */
+    font-weight: bold;
+}
+
+/* Ссылки */
+a {
+    color: #007bff; /* Синий цвет для ссылок */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0000; /* При наведении - красный */
+}
+
+/* Стиль абзацев */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Кнопки или ссылки на другие страницы */
+button, .btn {
+    background-color: #ffc107; /* Яркий желтый цвет для кнопок */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: #28a745; /* Зеленый при наведении */
+}
+
+/* Контейнер для контента */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Стиль для списка новостей */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+/* Для экранов шириной до 768px (обычно это планшеты и телефоны) */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+}
+
+/* Для экранов шириной до 480px (обычно это телефоны) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 8px;
+        font-size: 1em;
+    }
+}
+
