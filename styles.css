@@ -1,43 +1,7 @@
-body {
-    font-family: Arial, sans-serif; /* Шрифт для всего текста */
-    background-color: #f0f0f0; /* Цвет фона */
-    margin: 0; /* Убираем отступы */
-    padding: 0; /* Убираем поля */
-    display: flex; /* Используем Flexbox для центрирования */
-    justify-content: center; /* Горизонтальное центрирование */
-    align-items: center; /* Вертикальное центрирование */
-    height: 100vh; /* Высота экрана */
-}
-
-h1 {
-    color: #333; /* Цвет заголовка */
-    font-size: 2.5rem; /* Размер шрифта заголовка */
-}
-
-p {
-    color: #666; /* Цвет текста абзаца */
-    font-size: 1.2rem; /* Размер шрифта абзаца */
-    text-align: center; /* Центрируем текст */
-    max-width: 600px; /* Максимальная ширина абзаца */
-    line-height: 1.5; /* Высота строки */
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-}
-
-h1 {
-    color: #333;
-}
-
-p {
-    color: #555;
-}/* Общие стили для страницы */
+/* Общие стили для страницы */
 body {
     font-family: 'Poppins', sans-serif; /* Добавь ссылку на шрифт в HTML */
-    background-color: #f7f7f7; /* Светлый фон */
+    background-color: #a8d5ba; /* Светлый зеленый фон */
     color: #333333; /* Основной цвет текста */
     margin: 0;
     padding: 20px;
@@ -103,47 +67,3 @@ li {
     margin: 10px 0;
     font-size: 18px;
 }
-/* Для экранов шириной до 768px (обычно это планшеты и телефоны) */
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-
-    .container {
-        padding: 15px;
-        margin: 0;
-        max-width: 100%;
-    }
-
-    h1 {
-        font-size: 1.8em;
-    }
-
-    p {
-        font-size: 1.1em;
-    }
-
-    .btn {
-        width: 100%;
-        padding: 10px;
-        font-size: 1.2em;
-    }
-}
-
-/* Для экранов шириной до 480px (обычно это телефоны) */
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.6em;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-    .btn {
-        width: 100%;
-        padding: 8px;
-        font-size: 1em;
-    }
-}
-
